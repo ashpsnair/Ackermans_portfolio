@@ -1,0 +1,35 @@
+.head{
+    text-align: center;
+}
+  
+  .head1 {
+    width: 1000px;
+    margin: auto;
+    display: flex;
+  }
+  
+  .img1 {
+    border: solid pink;
+    width: 200px;
+    height: 300px;
+    margin: auto;
+  }
+  .mainhead1 {
+    border: solid rgb(194, 44, 69);
+    width: 500px;
+    height: 300px;
+    margin: auto;
+  }
+  .img2 {
+    border: solid pink;
+    width: 200px;
+    height: 300px;
+    margin: auto;
+  }
+  .mainhead1 div:nth-child(1) {
+    font-size: 30px;
+  }
+  .mainhead1 div:nth-child(3) {
+    font-size: 26px;
+  }
+  
