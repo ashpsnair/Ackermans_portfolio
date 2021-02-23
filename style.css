@@ -1,35 +1,66 @@
-.head{
-    text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Balsamiq+Sans&family=Concert+One&family=Fredoka+One&display=swap');
+
+body{
+  background-color:black;
+  color:white;
 }
-  
-  .head1 {
-    width: 1000px;
-    margin: auto;
+
+.main{
+  width: 80%;
+  margin: auto;
+  max-width: 1080px;
+}
+
+.head{
     display: flex;
-  }
+    margin-top: 80px;
+   
+}
+.head div h2{
+  /* font-family: 'Balsamiq Sans', cursive; */
+   /* font-family: 'Fredoka One', cursive; */
+   /* font-family: 'Concert One', cursive; */
+  font-family: 'Amatic SC', cursive;
+  font-weight: 900;
+  font-size: 90px;
+  color: #80FFDB;
+  text-align: center;
+  margin: auto;
+  width: 100%;
+}
+
+.head div p{
+  text-align: center;
+  margin: auto;
+  width: 60%;
+}
+
+#img1 {
+  margin-top: 60px;
+  width:600px;
+  height:400px;
+}
+
+.box1{
+  display: grid;
+  grid-template-areas: "sidebar content content";
+  margin:auto;
+  background: rgba(33, 52, 88, 0.603);
+}
+
+.box1 h2{
+  grid-area: sidebar;
+  font-family: 'Balsamiq Sans', cursive;
+  font-size: 40px;
   
-  .img1 {
-    border: solid pink;
-    width: 200px;
-    height: 300px;
-    margin: auto;
-  }
-  .mainhead1 {
-    border: solid rgb(194, 44, 69);
-    width: 500px;
-    height: 300px;
-    margin: auto;
-  }
-  .img2 {
-    border: solid pink;
-    width: 200px;
-    height: 300px;
-    margin: auto;
-  }
-  .mainhead1 div:nth-child(1) {
-    font-size: 30px;
-  }
-  .mainhead1 div:nth-child(3) {
-    font-size: 26px;
-  }
-  
+}
+
+.box1 div{
+  grid-area: content;
+}
+
+
+
+
+
+
